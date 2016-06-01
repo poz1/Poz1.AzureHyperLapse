@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"               
+             x:Class="Poz1.AzureHyperLapse.MainPage">
+  
+  <StackLayout Orientation="Vertical" Margin="10">
+      <Button Text="Pick a Video" VerticalOptions="Center"  x:Name="PickVideoButton" />
+      <ListView ItemsSource="{Binding LogList}"></ListView>
+      <Label x:Name="ProgressLabel" FontAttributes="Bold"></Label>
+  </StackLayout>
+  
+</ContentPage>
